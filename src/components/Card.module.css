@@ -1,0 +1,56 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5px;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0 0 20px rgb(231, 231, 231);
+    padding: 35px 20px 35px 20px;
+    text-align: center; 
+}
+.card h1 {
+    font-size: 30px;
+}
+.card h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.like {
+    border: 1px solid rgb(228, 228, 228);
+    box-shadow: 0 0 10px rgb(228, 228, 228);
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer; 
+    width: 30px;
+    height: 30px;
+}
+.like:hover {
+    transition: all 0.3s ease-out;
+    box-shadow: 0 0 10px rgb(182, 182, 182);
+}
+.like img {
+    width: 30px;
+}
+@media (max-width: 992px) {
+    .card h1 {
+        font-size: 25px;
+    }
+    .card h2 {
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px) {
+    .card {
+        margin: 0px 0px 15px 0px;
+        
+    }
+    .card h1 {
+        font-size: 25px;
+    }
+    .card h2 {
+        font-size: 18px;
+    }
+}

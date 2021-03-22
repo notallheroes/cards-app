@@ -1,0 +1,18 @@
+.App {
+    padding: 0px 10px 0px 10px;
+}
+.cardsContainer {
+    margin-top: 150px;
+    margin-left: 0 -5px;;
+    justify-content: center;
+    display: flex;
+}
+@media (max-width: 768px) {
+    .cardsContainer {
+        flex-wrap: wrap;
+    }
+    .App {
+        padding: 0px 10px 0px 10px;
+    }
+
+}
