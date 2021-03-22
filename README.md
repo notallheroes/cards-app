@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+ссылка на исходное тестовое https://github.com/FrolovArkadiy/task_for_middle
+
+ Чтобы проверить этот проект сначала нужно запустить json-server, чтобы имитировать получение данных по api (json-server entities.json) , далее можно запустить проект (npm start) на 3001 порте и все будет работать. Кроме пакетов установите axios, если его нет
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
